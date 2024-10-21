@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+nav#menu ul{
+    text-transform: uppercase;
+    list-style: none;
+    position: absolute;
+    top: 60px;
+    left: 930px;
+}
+ 
+.foto img{
+    text-align: center;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Ffree-png-psvgc&psig=AOvVaw2C6p6N6YnCfTXmxG7vSVXz&ust=1729079844603000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKi8z8KqkIkDFQAAAAAdAAAAABAe);
+}
+img{
+    width: 30%;
+    text-align: center;
+}
+
+ 
+.foto{
+    text-align: center;
+}
+nav#menu{
+    display: block;
+}
+ 
+nav#menu li{
+    display: inline-block;
+    background-color: rgb(222, 10, 230);
+    padding: 10px;
+ 
+}
+body{
+    background: rgb(222, 10, 230);
+   
+}
+header{
+    background-color: antiquewhite;
+    padding-top: 70px;
+    padding-bottom: 12px;
+    position: relative;
+}
+ 
+/*Pseudoclasses para estilização de menu de navegação*/
+nav#menu a:link{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+}
+nav#menu a:visited{
+    text-decoration: none;                                                  
+    color: antiquewhite;
+    font-weight: bold;
+}
+nav#menu a:hover{
+    color: rgb(255, 255, 255);  
+}
+nav#menu li:hover{
+    background-color: rgb(16, 5, 19);
+   
+}
+h2{
+    font: size 70px;
+}
+#frase{
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+ 
+ 

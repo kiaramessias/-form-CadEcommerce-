@@ -3,21 +3,29 @@
 Esse projeto consciste na criação de um projeto de cadastro para sites ou aplicativos.
 ## índice
 * [Descrição](#descrição)
+* [Resultado do projeto](#resultado)
+* [Propriedades Ultilizadas](Propriedades)
+* [Estilização](estilização)
 * [Tecnologias](#tecnologias)
 * [Referência](#rêferências)
 * [Autor(a)](#autora)
+
  
  
 ## Descrição
  
-Esse projeto foi criado para uma página de cadastro para poder entrar em algum aplicativo ou alguma coisa do tipo
+Esse projeto foi criado para uma página de cadastro que simula a realização de cadastro de páginas de e-commerce como: 
+* Shoope
+* Mercado Livre
+* Apple
  
+Os projetos que serviram de base para a criação desse projeto, estão disponíveis em: [Formulário de contato](https://github.com/kiaramessias/form-contato) e [Formulário de login](https://github.com/kiaramessias/projeto-login)
 ## Resultado do projeto
  
 ![](img/resultado.1.PNG)
 ![](img/resultado2.PNG)
  
-## propriedades ultilizadas
+## Propriedades Ultilizadas
  
 
  
@@ -61,61 +69,90 @@ Esse projeto foi criado para uma página de cadastro para poder entrar em algum 
 
 * align-content - define a distribuição de espaço entre e ao redor dos itens de conteúdo ao longo do eixo transversal de um flexbox ou do eixo de bloco de um elemento de nível de grade ou bloco .
 
-
- 
-## elementos html ultilizados
- 
-* main - representa o conteúdo dominante do <corpo> de um documento.
- 
-* form - representa uma seção de documento que contém controles interativos para enviar informações.
- 
-* label - representa uma legenda para um item em uma interface do usuário.
- 
-* input -  ele é usado para criar controles interativos para formulários baseados na Web para aceitar dados do usuário; Uma ampla variedade de tipos de dados de entrada e widgets de controle estão disponíveis, dependendo do dispositivo e do agente do usuário.
- 
-* textarea -como se fosse um controle de edição de texto sem formatação de várias linhas, útil quando você deseja permitir que os usuários insiram uma quantidade considerável de texto de formato livre, por exemplo, um comentário em um formulário de revisão ou feedback.
- 
-* button - elemento interativo ativado por um usuário com um mouse, teclado, dedo, comando de voz ou outra tecnologia assistiva.
- 
  
  
 ## Estilização
  
-* O projeto foi estilizado ultilizando o arquivo main.css
+* O projeto foi estilizado ultilizando o arquivo style.css
  
 ```
-body{
-    background-color: rgb(190, 21, 182);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
  
+nav#menu ul{
+    text-transform: uppercase;
+    list-style: none;
+    position: absolute;
+    top: 60px;
+    left: 930px;
 }
-form{
-    border: 3px solid rgb(14, 13, 13);
-    color: rgb(0, 0, 0);
-    font-family: Verdana,;
-    border-radius: 10px;
-    box-shadow: 0 0 10px black;
  
-   
+.foto img{
+    text-align: center;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Ffree-png-psvgc&psig=AOvVaw2C6p6N6YnCfTXmxG7vSVXz&ust=1729079844603000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKi8z8KqkIkDFQAAAAAdAAAAABAe);
 }
-button{
-    background-color: rgb(164, 32, 216);
-    width: 100px;
-    height: 30px;
-    border: 1px solid rgb(20, 18, 18);
-    color: rgb(8, 7, 8);
-    font-weight: 900;
-    border-radius: 5px;
-   
+img{
+    width: 30%;
+    text-align: center;
 }
-#Container{
-    border-radius: 10px;
-    background-color: rgb(164, 32, 216);
-    border: 2px solid rgb(20, 18, 18);
-}
-#largcoluna{
-    font-weight: 900;
 
+ 
+.foto{
+    text-align: center;
 }
+nav#menu{
+    display: block;
+}
+ 
+nav#menu li{
+    display: inline-block;
+    background-color: rgb(222, 10, 230);
+    padding: 10px;
+ 
+}
+body{
+    background: rgb(222, 10, 230);
+   
+}
+header{
+    background-color: antiquewhite;
+    padding-top: 70px;
+    padding-bottom: 12px;
+    position: relative;
+}
+ 
+/*Pseudoclasses para estilização de menu de navegação*/
+nav#menu a:link{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+}
+nav#menu a:visited{
+    text-decoration: none;                                                  
+    color: antiquewhite;
+    font-weight: bold;
+}
+nav#menu a:hover{
+    color: rgb(255, 255, 255);  
+}
+nav#menu li:hover{
+    background-color: rgb(16, 5, 19);
+   
+}
+h2{
+    font: size 70px;
+}
+#frase{
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+ 
+ 
  ```
 
 ## Tecnologia
